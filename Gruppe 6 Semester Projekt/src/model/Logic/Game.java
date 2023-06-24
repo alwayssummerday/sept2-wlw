@@ -725,3 +725,19 @@ public class Game {
         communicationRoom.addSecretExit("lever", hallway);
     }
 }
+  /*  public void monsterTravel() {
+        int rngRoom = (int) (4 * Math.random());
+        if (keyMonster.getMovability() && keyMonster.getHostility()) {
+            ArrayList<Room> allowedRooms = new ArrayList<>();
+            allowedRooms.add(airlock);
+            allowedRooms.add(hallway);
+            allowedRooms.add(keyRoom);
+            allowedRooms.add(armoury);
+            allowedRooms.add(medbay);
+            for (Room r : allowedRooms) {
+                r.removeNPC(keyMonster);
+            }
+            keyMonster.setHealth(200);
+            allowedRooms.get(rngRoom).addNPC(keyMonster);
+        }
+    }*/
